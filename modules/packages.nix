@@ -19,4 +19,9 @@
     # pw manager 
     pkgs._1password-gui
   ];
+
+  fonts.packages = [
+    pkgs.noto-fonts-cjk-serif
+    pkgs.noto-fonts-cjk-sans
+  ];
 }
