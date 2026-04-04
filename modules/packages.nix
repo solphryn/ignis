@@ -21,6 +21,9 @@
 
     # music
     pkgs.spotify
+
+    # pdf
+    pkgs.zathura
   ];
 
   fonts.packages = [
