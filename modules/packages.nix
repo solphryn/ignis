@@ -26,7 +26,7 @@
     pkgs.zathura
 
     # note taking
-    pkgs.emacs
+    pkgs.obsidian
   ];
 
   fonts.packages = [
