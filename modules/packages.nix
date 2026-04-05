@@ -2,9 +2,6 @@
 
 {
   environment.systemPackages = [
-    # editor
-    pkgs.neovim
-
     # CLI tools
     pkgs.wget
     pkgs.git

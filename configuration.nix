@@ -43,6 +43,11 @@
   nixpkgs.config.allowUnfree = true;
 
   zramSwap.enable = true;
+
+  programs.neovim = {
+    enable = true;
+    defaultEditor = true;
+  };
   
   system.stateVersion = "25.11";
 }
